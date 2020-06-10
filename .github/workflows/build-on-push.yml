@@ -27,4 +27,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: cpz
-        path: WorkflowTest\WorkflowTestProgram\bin\Debug\WorkflowTestProgram.cpz
+        path: WorkflowTest\WorkflowTestProgram\bin\Release\WorkflowTestProgram.cpz
