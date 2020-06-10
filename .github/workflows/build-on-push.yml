@@ -29,11 +29,5 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v1
       with:
-        name: dir
-        path: dir.txt
-
-#    - name: Upload artifacts
-#      uses: actions/upload-artifact@v1
-#      with:
-#        name: cpz
-#        path: WorkflowTest\WorkflowTestProgram\bin\Release\WorkflowTestProgram.cpz
+        name: cpz
+        path: WorkflowTest\WorkflowTestProgram\bin\Release\WorkflowTestProgram.cpz
