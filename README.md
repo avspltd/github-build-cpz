@@ -6,7 +6,7 @@ Two example Github Actions workflows are included in this project.
 
 #### release.yml
 
-Firstly, `.github/workflows/release.yml` runs a build and uploads it as a release, whenever a new tag is pushed that beging "v".
+Firstly, `.github/workflows/release.yml` runs a build and uploads it as a release, whenever a new tag is pushed that begins with a "v".
 
 `release.yml` includes a Powershell script to modify the VersionInfo.cs in the project to include the version tag in the C# code.
 
