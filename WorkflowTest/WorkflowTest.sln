@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowTestProgram", "WorkflowTestProgram\WorkflowTestProgram.csproj", "{CABBEE34-A337-4033-94C8-BF320CDB078D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowTestLibrary", "WorkflowTestLibrary\WorkflowTestLibrary.csproj", "{444F4C6E-0AA2-4449-BC51-5BACF6F2B929}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CABBEE34-A337-4033-94C8-BF320CDB078D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABBEE34-A337-4033-94C8-BF320CDB078D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABBEE34-A337-4033-94C8-BF320CDB078D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABBEE34-A337-4033-94C8-BF320CDB078D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444F4C6E-0AA2-4449-BC51-5BACF6F2B929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444F4C6E-0AA2-4449-BC51-5BACF6F2B929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444F4C6E-0AA2-4449-BC51-5BACF6F2B929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444F4C6E-0AA2-4449-BC51-5BACF6F2B929}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2816C23-821D-4D12-9A0E-2F87EDA95347}
+	EndGlobalSection
+EndGlobal
