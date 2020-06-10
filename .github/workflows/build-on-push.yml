@@ -22,3 +22,9 @@ jobs:
 
     - name: Build Solution 
       run: powershell -Command " $msbuild = vswhere -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\MSBuild.exe;  & "$msbuild" .\WorkflowTest\WorkflowTest.sln "
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v1
+      with:
+        name: cpz
+        path: WorkflowTest\WorkflowTestProgram\bin\Debug\WorkflowTestProgram.cpz
