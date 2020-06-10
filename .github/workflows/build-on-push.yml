@@ -23,9 +23,6 @@ jobs:
     - name: Build Solution 
       run: msbuild.exe .\WorkflowTest\WorkflowTest.sln -p:Configuration=Release
 
-    - name: Get a directory listing
-      run: powershell -Command " Get-ChildItem -Recurse | Out-File dir.txt "
-
     - name: Upload artifacts
       uses: actions/upload-artifact@v1
       with:

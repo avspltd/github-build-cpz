@@ -32,6 +32,8 @@ namespace WorkflowTestProgram
         {
             try
             {
+                CrestronConsole.PrintLine("starting version " + VersionInfo.Version);
+
                 Test t = new Test();
             }
             catch (Exception e)
