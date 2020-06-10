@@ -21,7 +21,7 @@ jobs:
         run: nuget restore .\WorkflowTest\WorkflowTest.sln
 
       - name: Set version
-        run: powershell "((Get-Content -path .\WorkflowTest\WorkflowTestProgram\VersionInfo.cs -Raw) -replace 'DEVELOPMENT','${{ github.ref }}') | Set-Content -Path .\WorkflowTest\WorkflowTestProgram\VersionInfo.cs"
+        run: powershell "((Get-Content -path .\WorkflowTest\WorkflowTestProgram\VersionInfo.cs -Raw) -replace 'DEVELOPMENT',('${{ github.ref }}' -replace '.*/')) | Set-Content -Path .\WorkflowTest\WorkflowTestProgram\VersionInfo.cs"
 
       - name: Add msbuild to PATH
         uses: microsoft/setup-msbuild@v1.0.0
